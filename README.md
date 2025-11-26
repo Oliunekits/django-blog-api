@@ -2,9 +2,6 @@ Django Blog API
 
 A simple Blog/News REST API built with Django, Django REST Framework, JWT authentication, and Swagger documentation.
 
-This project is created as a portfolio example for a Junior Python Developer.
-It demonstrates:
-
 CRUD operations
 
 REST API architecture
