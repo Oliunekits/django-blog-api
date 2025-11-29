@@ -1,90 +1,27 @@
-Django Blog API
+# Django Blog / News API
 
-A simple Blog/News REST API built with Django, Django REST Framework, JWT authentication, and Swagger documentation.
+**A secure REST API backend built with Django & Django REST Framework**
 
-CRUD operations
+## Features
+- Full **CRUD** operations for articles/posts
+- **JWT authentication** using SimpleJWT
+- Auto-generated **Swagger/OpenAPI docs**
+- **Containerized with Docker**
+- Ready-to-use as backend for web or mobile apps
 
-REST API architecture
+## Tech Stack
+- Python 3, Django, Django REST Framework (DRF)
+- JWT (SimpleJWT), SQLite
+- Docker, Swagger (drf-spectacular), GitHub version control
 
-Django models, serializers, views
+## Installation & Run
 
-Automatic API documentation (Swagger / OpenAPI)
-
-Clean project structure
-
-Good code style and best practices
-
-Tech Stack
-
-Python 3.11+
-
-Django 5
-
-Django REST Framework
-
-SimpleJWT
-
-drf-spectacular (Swagger docs)
-
-SQLite (default)
-
-Installation and Run
-
-Clone the repository:
-
-git clone https://github.com/YOUR_USERNAME/django-blog-api.git
-
-cd django-blog-api
-
-Create and activate a virtual environment:
-
-python -m venv .venv
-.venv\Scripts\activate (Windows)
-source .venv/bin/activate (Linux/Mac)
-
-Install dependencies:
-
+1. Clone project
+2. Install dependencies:
+```bash
 pip install -r requirements.txt
 
-Apply migrations:
 
+## Run server 
 python manage.py migrate
-
-Run the development server:
-
 python manage.py runserver
-
-API Documentation
-
-Swagger UI:
-http://127.0.0.1:8000/api/docs/
-
-OpenAPI schema:
-http://127.0.0.1:8000/api/schema/
-
-Blog API Endpoints
-
-Get all articles:
-GET /api/blog/articles/
-
-Get one article:
-GET /api/blog/articles/<id>/
-
-Create article:
-POST /api/blog/articles/
-
-Update article:
-PUT /api/blog/articles/<id>/
-
-Delete article:
-DELETE /api/blog/articles/<id>/
-
-Author
-
-oliunekits
-Junior Python Developer
-GitHub: https://github.com/oliunekits
-
-License
-
-This project is licensed under the MIT License.
