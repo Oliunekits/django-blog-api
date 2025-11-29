@@ -16,12 +16,26 @@
 
 ## Installation & Run
 
-1. Clone project
-2. Install dependencies:
-```bash
-pip install -r requirements.txt
+- Clone project
+- Install dependencies:
+- bash
+- pip install -r requirements.txt
 
 
-## Run server 
-python manage.py migrate
-python manage.py runserver
+## Run server  
+- python manage.py migrate
+- python manage.py runserver
+
+## Open API docs (Swagger) and start testing endpoints
+API Endpoints Examples:
+Method	Endpoint	Description:
+- GET	/articles/	List all articles
+- POST	/articles/	Create article (Auth)
+- PUT	/articles/<id>	Update article (Auth)
+- DELETE	/articles/<id>	Delete article (Auth)
+
+## Achievements
+
+- Built a clean, well-structured API with secure authentication
+- Created interactive API documentation
+- Packaged project for easy local & Docker deployment
